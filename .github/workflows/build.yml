@@ -9,14 +9,17 @@ on:
 jobs:
   
   validate_json:
-    name: Check Json File
+    name: 
     runs-on: ubuntu-latest
     steps:
-      - name: Validate JSON
-        uses: OrRosenblatt/validate-json-action@0.1.0
-        with:
-          schema: ./.github/schema/schema.json
-          json: ./index.json
+    - name: Checkout master branch
+      uses: actions/checkout@v2
+      
+    - name: Validate Json File
+      uses: docker://orrosenblatt/validate-json-action:latest
+      env:
+        INPUT_SCHEMA: ./.github/schema/schema.json
+        INPUT_JSONS: ./index.json
 
   build:
     name: Compress Json File.
@@ -31,9 +34,6 @@ jobs:
 
       - name: Checkout master branch
         uses: actions/checkout@v2
-        with:
-          ref: master
-          path: master
      
       - name: Compress
         run: ./.github/scripts/create-dev.sh 
