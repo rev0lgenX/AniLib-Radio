@@ -6,3 +6,34 @@ on:
       - master
   pull_request:
 
+jobs:
+  
+  validate_json:
+    name: Check Json File
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate JSON
+        uses: OrRosenblatt/validate-json-action@0.1.0
+        with:
+          schema: ./.github/schema/schema.json
+          json: ./index.json
+
+  build:
+    name: Compress Json File.
+    needs: [validate_json]
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Cancel Previous Build
+        uses: styfle/cancel-workflow-action@0.5.0
+        with:
+          access_token: ${{ github.token }}
+
+      - name: Checkout master branch
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          path: master
+     
+      - name: Compress
+        run: ./.github/scripts/create-dev.sh 
