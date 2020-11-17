@@ -1,0 +1,41 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "schema.json",
+	"description": "Schema for AniLib Radio (https://github.com/rev0lgenX/AniLib-Radio)",
+	"title": "AniLib Radio Schema",
+	"type": "array",
+	"items": {
+		"title": "AniLib Radio Items",
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+			"id": {
+				"description": "The unique identifier for a radio",
+				"type": "number"
+			},
+			"name": {
+				"type": "string"
+			},
+			"site": {
+				"type": "string",
+				"format": "uri"
+			},
+			"logo": {
+				"type": ["string","null"]
+			},
+			"bitrate": {
+				"type": "string"
+			},
+			"stream": {
+				"type": "string",
+				"format": "uri"
+			}
+		},
+		"required": [
+			"id",
+			"name",
+			"site",
+			"stream"
+		]
+	}
+}
