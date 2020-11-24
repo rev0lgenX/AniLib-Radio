@@ -21,7 +21,10 @@
 				"format": "uri"
 			},
 			"logo": {
-				"type": ["string","null"]
+				"type": [
+					"string",
+					"null"
+				]
 			},
 			"bitrate": {
 				"type": "string"

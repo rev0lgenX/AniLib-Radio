@@ -1,8 +1,18 @@
-[{
-	"id":1,
-	"name":"anison",
-	"site":"http://anison.fm/",
-	"logo":null,
-	"bitrate":"256kb/s",
-	"stream":"https://pool.anison.fm/AniSonFM(256)"
-}]
+[
+	{
+		"id": 1,
+		"name": "Anison",
+		"site": "http://anison.fm/",
+		"logo": null,
+		"bitrate": "256kb/s",
+		"stream": "https://pool.anison.fm/AniSonFM(256)"
+	},
+	{
+		"id": 2,
+		"name": "Radio Nami",
+		"site": "http://radionami.com/",
+		"logo": null,
+		"bitrate": "320kb/s",
+		"stream": "http://5.9.2.139:8000/any-anime.ru"
+	}
+]
