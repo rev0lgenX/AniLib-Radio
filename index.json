@@ -6,7 +6,8 @@
 		"logo": null,
 		"channel": [{
 			"stream": "https://pool.anison.fm/AniSonFM(256)",
-			"bitrate": 256
+			"bitrate": 256,
+			"default": true
 		}]
 	},
 	{
@@ -16,7 +17,8 @@
 		"logo": null,
 		"channel": [{
 			"stream": "http://radio.flex.ru:8000/radionami",
-			"bitrate": 320
+			"bitrate": 320,
+			"default": true
 		}]
 	}
 ]

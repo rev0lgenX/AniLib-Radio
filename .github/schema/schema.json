@@ -43,13 +43,13 @@
 						"default": {
 							"type": "boolean"
 						}
-					}
-				},
-				"required": [
-					"stream",
-					"bitrate",
-					"default"
-				]
+					},
+					"required": [
+						"stream",
+						"bitrate",
+						"default"
+					]
+				}
 			}
 		},
 		"required": [
