@@ -1,7 +1,7 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"$id": "schema.json",
-	"description": "Schema for AniLib Radio (https://github.com/rev0lgenX/AniLib-Radio)",
+	"description": "Schema for AniLib Radio (https://github.com/rev0lgenX/AniLib-Radio). Run \"ajv -s .github/schema/schema.json -d index.json \" to verify json",
 	"title": "AniLib Radio Schema",
 	"type": "array",
 	"items": {
@@ -26,6 +26,9 @@
 					"null"
 				]
 			},
+			"isObsolete": {
+				"type": "boolean"
+			},
 			"channel": {
 				"type": "array",
 				"items": {
@@ -42,12 +45,16 @@
 						},
 						"default": {
 							"type": "boolean"
+						},
+						"isObsolete": {
+							"type": "boolean"
 						}
 					},
 					"required": [
 						"stream",
 						"bitrate",
-						"default"
+						"default",
+						"isObsolete"
 					]
 				}
 			}
@@ -56,7 +63,8 @@
 			"id",
 			"name",
 			"site",
-			"channel"
+			"channel",
+			"isObsolete"
 		]
 	}
 }
