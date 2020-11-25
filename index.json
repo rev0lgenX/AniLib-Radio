@@ -4,15 +4,19 @@
 		"name": "Anison",
 		"site": "http://anison.fm/",
 		"logo": null,
-		"bitrate": "256kb/s",
-		"stream": "https://pool.anison.fm/AniSonFM(256)"
+		"channel": [{
+			"stream": "https://pool.anison.fm/AniSonFM(256)",
+			"bitrate": 256
+		}]
 	},
 	{
 		"id": 2,
 		"name": "Radio Nami",
 		"site": "http://radionami.com/",
 		"logo": null,
-		"bitrate": "320kb/s",
-		"stream": "http://radio.flex.ru:8000/radionami"
+		"channel": [{
+			"stream": "http://radio.flex.ru:8000/radionami",
+			"bitrate": 320
+		}]
 	}
 ]

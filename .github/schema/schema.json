@@ -26,19 +26,37 @@
 					"null"
 				]
 			},
-			"bitrate": {
-				"type": "string"
-			},
-			"stream": {
-				"type": "string",
-				"format": "uri"
+			"channel": {
+				"type": "array",
+				"items": {
+					"title": "Radio Channels",
+					"type": "object",
+					"additionalProperties": false,
+					"properties": {
+						"bitrate": {
+							"type": "number"
+						},
+						"stream": {
+							"type": "string",
+							"format": "uri"
+						},
+						"default": {
+							"type": "boolean"
+						}
+					}
+				},
+				"required": [
+					"stream",
+					"bitrate",
+					"default"
+				]
 			}
 		},
 		"required": [
 			"id",
 			"name",
 			"site",
-			"stream"
+			"channel"
 		]
 	}
 }
