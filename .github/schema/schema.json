@@ -26,9 +26,6 @@
 					"null"
 				]
 			},
-			"isObsolete": {
-				"type": "boolean"
-			},
 			"channel": {
 				"type": "array",
 				"items": {
@@ -45,16 +42,12 @@
 						},
 						"default": {
 							"type": "boolean"
-						},
-						"isObsolete": {
-							"type": "boolean"
 						}
 					},
 					"required": [
 						"stream",
 						"bitrate",
-						"default",
-						"isObsolete"
+						"default"
 					]
 				}
 			}
@@ -63,8 +56,7 @@
 			"id",
 			"name",
 			"site",
-			"channel",
-			"isObsolete"
+			"channel"
 		]
 	}
 }
