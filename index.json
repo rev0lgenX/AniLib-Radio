@@ -3,8 +3,7 @@
 		"id": 1,
 		"name": "Anison",
 		"site": "http://anison.fm/",
-		"logo": null,
-		"isObsolete": false,
+		"logo": "http://anison.fm/images/logo_w580.png",
 		"channel": [{
 			"stream": "https://pool.anison.fm/AniSonFM(256)",
 			"bitrate": 256,
