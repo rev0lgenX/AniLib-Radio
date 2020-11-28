@@ -14,7 +14,7 @@
 		"id": 2,
 		"name": "Radio Nami",
 		"site": "http://radionami.com/",
-		"logo": null,
+		"logo": "https://radionami.com/style/horo.png",
 		"isObsolete": false,
 		"channel": [{
 			"stream": "http://radio.flex.ru:8000/radionami",
