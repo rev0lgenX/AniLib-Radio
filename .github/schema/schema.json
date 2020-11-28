@@ -26,6 +26,12 @@
 					"null"
 				]
 			},
+			"isObsolete": {
+				"type": [
+					"boolean",
+					"null"
+				]
+			},
 			"channel": {
 				"type": "array",
 				"items": {

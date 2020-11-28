@@ -15,6 +15,7 @@
 		"name": "Radio Nami",
 		"site": "http://radionami.com/",
 		"logo": null,
+		"isObsolete": false,
 		"channel": [{
 			"stream": "http://radio.flex.ru:8000/radionami",
 			"bitrate": 320,
