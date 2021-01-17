@@ -21,5 +21,197 @@
 			"bitrate": 320,
 			"default": true
 		}]
+	},{
+		"id": 3,
+		"name": "Asian Wave Japan",
+		"site": "https://asianwave.ru/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/asian_wave_japan.jpg",
+		"channel": [{
+			"stream": "https://listen1.myradio24.com/7934",
+			"bitrate": 320,
+			"default": true
+		}]
+	},
+	{
+		"id": 4,
+		"name": "Anime Nexus",
+		"site": "http://www.animenexus.mx/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/anime_nexus.png",
+		"channel": [{
+			"stream": "http://radio.animenexus.mx:8000/animenexus",
+			"bitrate": 128,
+			"default": true
+		}]
+	},
+	{
+		"id": 5,
+		"name": "Animu FM",
+		"site": "https://www.animu.com.br",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/animu_radio.png",
+		"channel": [{
+			"stream": "http://cast.animu.com.br:9021/stream",
+			"bitrate": 320,
+			"default": true
+		}]
+	},
+	{
+		"id": 6,
+		"name": "Ghost Anime Radio",
+		"site": "http://animeradio.su/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/ghost_anime_radio.png",
+		"channel": [{
+			"stream": "http://animeradio.su:8000/",
+			"bitrate": 128,
+			"default": true
+		}]
+	},
+	{
+		"id": 7,
+		"name": "Vocaloid Radio",
+		"site": "http://vocaloidradio.com/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/vocaloid_radio.png",
+		"channel": [{
+			"stream": "http://curiosity.shoutca.st:8019/stream",
+			"bitrate": 192,
+			"default": true
+		}]
+	},
+	{
+		"id": 8,
+		"name": "LISTEN.moe",
+		"site": "https://listen.moe/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/listen_moe.jpg",
+		"channel": [{
+			"stream": "https://listen.moe/stream",
+			"bitrate": 256,
+			"default": true
+		}]
+	},
+	{
+		"id": 10,
+		"name": "Shinsen Radio",
+		"site": "http://www.shinsen-radio.org/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/shinsen_radio.jpg",
+		"channel": [{
+			"stream": "http://shinsen-radio.org:8000/shinsen-radio.128.mp3",
+			"bitrate": 128,
+			"default": true
+		}]
 	}
+	,
+	{
+		"id": 11,
+		"name": "Eden Radio",
+		"site": "http://edenofthewest.com/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/eden_of_the_west.jpg",
+		"channel": [{
+			"stream": "https://www.edenofthewest.com/radio/8000/radio.mp3",
+			"bitrate": 128,
+			"default": true
+		}]
+	}
+	,
+	{
+		"id": 12,
+		"name": "Gensokyo Radio",
+		"site": "http://www.gensokyoradio.net/",
+		"logo": "https://www.gensokyoradio.net/images/assets/gr-logo.png",
+		"channel": [{
+			"stream": "http://stream.gensokyoradio.net:8000/stream/1/",
+			"bitrate": 128,
+			"default": true
+		}]
+	}
+	,
+	{
+		"id": 13,
+		"name": "Phate Radio",
+		"site": "http://phate.io/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/phate_io.png",
+		"channel": [{
+			"stream": "http://stream.phate.io/phatecc",
+			"bitrate": 128,
+			"default": true
+		}]
+	}
+	,
+	{
+		"id": 14,
+		"name": "Radio AOI",
+		"site": "http://radioaoi.pl",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/radio_aoi.png",
+		"channel": [{
+			"stream": "http://radioaoi.pl/stream.m3u",
+			"bitrate": 128,
+			"default": true
+		}]
+	}
+	,
+	{
+		"id": 15,
+		"name": "Touhou Radio",
+		"site": "http://www.touhouradio.com/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/touhou_radio.png",
+		"channel": [{
+			"stream": "http://touhouradio.com:8000/.mp3",
+			"bitrate": 128,
+			"default": true
+		}]
+	},
+	{
+		"id": 16,
+		"name": "Japan-A-Radio",
+		"site": "http://www.japanaradio.com/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/japan_a_radio.jpg",
+		"channel": [{
+			"stream": "http://audio.misproductions.com/japan48kaacp",
+			"bitrate": 48,
+			"default": true
+		}]
+	},
+	{
+		"id": 17,
+		"name": "Forever Anime",
+		"site": "http://radiofa.net/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/radiofa.png",
+		"channel": [{
+			"stream": "http://199.168.188.202:9310/stream",
+			"bitrate": 128,
+			"default": true
+		}]
+	},
+	{
+		"id": 18,
+		"name": "Initial D World",
+		"site": "http://idforums.net",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/ghost_anime_radio.jpg",
+		"channel": [{
+			"stream": "http://75.119.212.68:9001/listen.aac",
+			"bitrate": 96,
+			"default": true
+		}]
+	},
+	{
+		"id": 19,
+		"name": "Kibo.FM",
+		"site": "http://www.kibo.fm/",
+		"logo": "https://www.kibo.fm/assets/img/kibofm-logo.webp",
+		"channel": [{
+			"stream": "http://listen.kibo.fm:8000/kibofm",
+			"bitrate": 192,
+			"default": true
+		}]
+	},
+	{
+		"id": 20,
+		"name": "Japan Fans",
+		"site": "http://www.japan-fans.com/",
+		"logo": "https://raw.githubusercontent.com/rev0lgenX/AniLib-Radio/dev/icon/japan_fans.jpg",
+		"channel": [{
+			"stream": "http://radyo1.radyo-dinle.tc:8126/stream",
+			"bitrate": 128,
+			"default": true
+		}]
+	}
+	
 ]
