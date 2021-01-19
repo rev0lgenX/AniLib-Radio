@@ -29,7 +29,7 @@
     "id": 3,
     "name": "Anison",
     "site": "http://anison.fm/",
-    "logo": "http://anison.fm/images/logo_w580.jpg",
+    "logo": "http://anison.fm/images/logo_w580.png",
     "channel": [
       {
         "stream": "https://pool.anison.fm/AniSonFM(256)",
@@ -81,7 +81,7 @@
     "id": 7,
     "name": "Gensokyo Radio",
     "site": "http://www.gensokyoradio.net/",
-    "logo": "https://www.gensokyoradio.net/images/assets/gr-logo.jpg",
+    "logo": "https://www.gensokyoradio.net/images/assets/gr-logo.png",
     "channel": [
       {
         "stream": "http://stream.gensokyoradio.net:8000/stream/1/",
